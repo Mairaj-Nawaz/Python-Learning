@@ -5,5 +5,6 @@ Hint: Use the current year as 2025.
 """
 
 birth_year = int(input("please enter your birth year : "))
-age = print(2025 - birth_year)
+# print(2025-birth_year)
+age = 2025 - birth_year
 print(f"you are {age}, years old")

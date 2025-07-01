@@ -18,13 +18,13 @@ and greater than 10, else print the number is odd or less than 10.
 name = input("please enter your name : ")
 print(type(name))
 
-num = int(input("please enter a number: "))
 
-
-if name:
-    if num % 2 and num >= 10:
-        print("number is even and greater than 10")
+if isinstance(name, str):
+    if name:
+        num = int(input("please enter a number: "))
+        if num % 2 == 0 and num >= 10:
+            print("number is even and greater than 10")
+        else:
+            print("number is odd and less than 10")
     else:
-        print("number is odd and less than 10")
-else:
-    print("error")
+        print("error")
