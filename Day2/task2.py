@@ -9,3 +9,17 @@
 # If the user enters 4 → print "You chose Mango"
 
 # For any other number, print "Invalid choice"
+
+num = input("please enter a number from (1,2,3,4): ")
+
+match num:
+    case "1":
+        print("you chose apple")
+    case "2":
+        print("you chose banana") 
+    case "3":
+        print("you chose orange") 
+    case "4":
+        print("you chose mango")
+    case _:
+        print("invalid choice")      
