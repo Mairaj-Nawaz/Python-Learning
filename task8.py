@@ -1,0 +1,1 @@
+# Take a string and check if string has vowel or not
