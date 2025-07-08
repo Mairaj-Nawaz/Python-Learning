@@ -26,8 +26,8 @@ count = 0
 length = int(input("please enter the length of the pattern: "))
 for i in range(length,-1,-1):
     count+=1
-    for j in range(i,-1,-1):
+    for j in range(count): #i,-1,-1
         print(" ", end="")
-    for k in range(count):
+    for k in range(i,-1,-1): # count
         print("=", end='')
     print()
