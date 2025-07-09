@@ -13,4 +13,4 @@ total_count = 0
 for i in range(7):
     count += 1 
     total_count += count
-print("Total bananas eaten in a week: ", total_count)
+    print(f"Total bananas  in a Day{i+1}: ", total_count)

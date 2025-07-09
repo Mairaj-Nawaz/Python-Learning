@@ -15,10 +15,13 @@
 
 count = 0
 
-for i in range(count):
-    count +=5
-    for j in range(i,-1,-1):
-        print("", end=" ") 
-    print("=", end=" ")
+n = 10
+for i in range(n):
+    for j in range(count):
+        print("", end=" ")
+    for k in range(5):
+        print("*", end='')
+        count +=1
+    print()
 
 
