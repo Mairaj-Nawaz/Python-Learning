@@ -11,3 +11,14 @@
 # 2nd jitne count ki value utni spacing
 # 2nd me phr dobara 5 star mtlb 5 more values add to count now count value is 10 
 # like this all work
+
+
+count = 0
+
+for i in range(count):
+    count +=5
+    for j in range(i,-1,-1):
+        print("", end=" ") 
+    print("=", end=" ")
+
+
