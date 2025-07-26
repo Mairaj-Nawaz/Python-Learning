@@ -1,3 +1,4 @@
+# Make a separate repo for this project
 # 🎓 School Management System
 
 A web-based School Management System that allows students and teachers to manage academic activities including course registration, exams, grading, and more.
